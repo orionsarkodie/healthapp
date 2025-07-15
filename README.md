@@ -1,6 +1,6 @@
 # healthapp
 This is an app to connect doctors and patients in Ghana
-# HealthLink Ghana (your app name)
+# HealthLink Ghana 
 
 **Problem**: Over 60% of Ghana’s population struggles to access timely, affordable healthcare, especially in rural areas.
 
