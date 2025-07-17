@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login - Health App</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/amazon-cognito-identity-js@6.2.0/dist/amazon-cognito-identity.min.js"></script>
+</head>
+<body class="bg-blue-50 flex items-center justify-center min-h-screen">
+  <form id="login-form" class="bg-white p-8 rounded shadow-md w-full max-w-md">
+    <h2 class="text-2xl font-bold mb-4 text-center">Login</h2>
+    <input id="email" type="email" placeholder="Email" class="w-full mb-4 p-2 border rounded" required>
+    <input id="password" type="password" placeholder="Password" class="w-full mb-4 p-2 border rounded" required>
+    <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded">Login</button>
+    <div id="message" class="mt-4 text-sm text-center text-red-600"></div>
+  </form>
+  <script src="js/login.js"></script>
+</body>
+</html>
